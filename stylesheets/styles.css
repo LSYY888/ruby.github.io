@@ -10,14 +10,34 @@ html {
 }
 
 body {
-  padding: 50px 0;
   margin: 0;
+  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font-weight: 300;
+  
+}
+.wrapper-content{
+  width: 1920px;
+  height: 1200px;
+  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font-weight: 300;
+  background: url(../images/blog-bg.jpg) no-repeat fixed;
+}
+.wrapper-content a{
+  display: inline-block;
+  width: 1920px;
+  height: 1200px;
+}
+.body-content{
+  padding-top: 60px;
+  width: 1920px;
+  height: 1200px;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
   background: url(../images/banner.jpg) no-repeat fixed;
 }
-
 .wrapper {
   width: 640px;
   margin: 0 auto;
@@ -31,7 +51,6 @@ body {
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
 }
-
 header, section, footer {
   display: block;
 }
