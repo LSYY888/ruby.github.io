@@ -41,10 +41,10 @@ a {
   text-decoration: none;
 }
 
-p {
+/* p {
   margin: 0 0 20px;
   padding: 0;
-}
+} */
 
 strong {
   color: #222;
@@ -354,3 +354,14 @@ footer p + p {
     content: 'at https://github.com/';
   }
 }
+
+
+/* lilu博客主题样式修改 */
+.clearfix{zoom:1;}
+.clearfix:after{content:'';display:block;visibility:hidden;clear:both;height:0px;}
+ul li{list-style: none;}
+section ul li{ padding-top: 4px; border-bottom: 1px dotted #3e9fc0;}
+section ul li h4, section ul li p, section ul li a{margin-bottom: 0;}
+section ul li h4{font-size: 20px; height: 30px; line-height: 30px; color: #434343;}
+section ul li p{padding: 4px 0; line-height: 24px; font-size: 14px; color: #434343;}
+section ul li a{display: block; margin-bottom: 6px; float: right; width: 30px; height: 20px; line-height: 20px; color: #434343; font-size: 12px; border: 1px solid #26bbef; text-align: center; border-radius: 5px;}
