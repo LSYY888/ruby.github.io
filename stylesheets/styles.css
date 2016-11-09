@@ -97,6 +97,7 @@ header h1 {
 }
 header.without-description h1 {
   margin: 10px 0;
+  text-align: center;
 }
 header p {
   margin: 0;
